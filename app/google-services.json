@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "885790796877",
+    "project_id": "mega-motors-7aa4d",
+    "storage_bucket": "mega-motors-7aa4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885790796877:android:e75371d1a2e1c7e7188004",
+        "android_client_info": {
+          "package_name": "devandroid.vinicius.megamotors"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5xjRxBFVeyfRos45iqTbptBxyDSEJaBI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

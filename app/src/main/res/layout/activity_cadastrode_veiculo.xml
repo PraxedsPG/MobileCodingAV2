@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    tools:context=".cadastrodeVeiculo">
+
+
+    <TextView
+        android:id="@+id/cadastroview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastre o automóvel que deseja vender"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.087" />
+
+
+    <EditText
+        android:id="@+id/formMarca"
+        android:layout_width="318dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="108dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Marca"
+        android:inputType="text"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cadastroview" />
+
+    <EditText
+        android:id="@+id/formAno"
+        android:layout_width="318dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Ano"
+        android:inputType="date"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/formMarca" />
+
+    <EditText
+        android:id="@+id/formModelo"
+        android:layout_width="318dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Modelo"
+        android:inputType="text"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/formAno" />
+
+
+    <Button
+        android:id="@+id/btnVizualizarVeiculos"
+        android:layout_width="258dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/black"
+        android:text="VIZUALIZAR VEÍCULOS"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCadastrarVeiculos" />
+
+    <Button
+        android:id="@+id/btnCadastrarVeiculos"
+        android:layout_width="258dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/black"
+        android:text="CADASTRAR VEÍCULOS"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/formModelo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
